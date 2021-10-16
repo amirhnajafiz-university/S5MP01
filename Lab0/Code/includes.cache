@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "F:\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "F:\\Arduino\\hardware\\arduino\\avr\\variants\\mega"
+  },
+  {
+    "Sourcefile": "C:\\Users\\AliReza\\AppData\\Local\\Temp\\arduino_build_707903\\sketch\\Blink.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
