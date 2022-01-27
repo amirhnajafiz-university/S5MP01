@@ -1,0 +1,56 @@
+Dependencies for Project 'blink', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\blink.s)(0x61C88CD5)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IE:/keli5-pack/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/keli5-pack/Atmel/SAM3N_DFP/1.0.62/include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"__SAM3N4A__ SETA 1"-o ./objects/blink.o)
+F (RTE\Device\ATSAM3N4A\startup_SAM3N.s)(0x61C85A76)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IE:/keli5-pack/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/keli5-pack/Atmel/SAM3N_DFP/1.0.62/include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"__SAM3N4A__ SETA 1"-o ./objects/startup_sam3n.o)
+F (RTE\Device\ATSAM3N4A\system_SAM3N.c)(0x61C85A76)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IE:/keli5-pack/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/keli5-pack/Atmel/SAM3N_DFP/1.0.62/include-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -D__SAM3N4A__-o ./objects/system_sam3n.o -MD)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\sam3n.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\sam3n4a.h)(0x57DAB858)
+I (E:\keli5\ARM\ARMCLANG\include\stdint.h)(0x60354718)
+I (E:\keli5-pack\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D4282A)
+I (E:\keli5-pack\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4282A)
+I (E:\keli5-pack\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4282A)
+I (E:\keli5-pack\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D4282A)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\system_sam3n.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\adc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\chipid.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\dacc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\efc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\gpbr.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\matrix.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\pdc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\pio.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\pmc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\pwm.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\rstc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\rtc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\rtt.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\spi.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\supc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\tc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\twi.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\uart.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\usart.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\component\wdt.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\spi.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\tc0.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\twi0.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\twi1.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\pwm.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\usart0.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\adc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\dacc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\matrix.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\pmc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\uart0.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\chipid.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\uart1.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\efc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\pioa.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\piob.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\rstc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\supc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\rtt.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\wdt.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\rtc.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\instance\gpbr.h)(0x57DAB858)
+I (E:\keli5-pack\Atmel\SAM3N_DFP\1.0.62\include\pio\sam3n4a.h)(0x57DAB858)
